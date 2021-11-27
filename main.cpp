@@ -65,4 +65,5 @@ int main() {
         //    denNedeliNuzhniy = nomerDnya % 7 + denNedeli0101;
         //std::cout << denNedeliNuzhniy << std::endl;
     return 0;
+
 }
