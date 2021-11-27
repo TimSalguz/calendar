@@ -22,18 +22,18 @@ bool VysokosLi(int year)
 {
     if(year%400 == 0 || year % 4 == 0 && year % 100 !=0)
     {
-        std::cout << "Год високосный" << std::endl;
+        //std::cout << "Год високосный" << std::endl;
         return 1;
     }
     else
     {
-        std::cout << "Год невисокосный" << std::endl;
+        //std::cout << "Год невисокосный" << std::endl;
         return 0;
     }
 }
 
 int main() {
-    system("chcp 65001");
+    //system("chcp 65001");
     int year = 0;
     int skolkoDneyVGodu;
     int nomerDnya;
@@ -47,7 +47,7 @@ int main() {
         skolkoDneyVGodu = 366;
     else
         skolkoDneyVGodu = 365;
-    std::cout << "В " << year << " году " << skolkoDneyVGodu << " дней" << std::endl;
+    //std::cout << "В " << year << " году " << skolkoDneyVGodu << " дней" << std::endl;
 
 
 
